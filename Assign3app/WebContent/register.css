@@ -1,0 +1,115 @@
+@charset "ISO-8859-1";
+*{
+    box-sizing: 50px;
+}
+.all
+{
+    
+    border: 1px solid red;
+    border-radius: 4px;
+}
+.for70
+{
+    width: 70%;
+    float: left;
+    margin-top: 5px;
+}
+
+
+form {
+    width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color:wheat;
+}
+label
+{
+    color:blue;
+    font-size: 15px;
+    padding-right:10px;
+    width: 15%;        
+    min-width: 120px;   
+    margin: 35px;   
+
+}
+input {
+  
+    height: 20px;
+    background-color : #d1d1d1;
+    flex: 0 0 500px;
+    margin-left: 10px;
+    
+  }
+  
+
+.for30
+{
+    width: 30;
+    float: left;
+    margin-top: 5px;
+}
+.row::after
+{
+    content: " ";
+    display:table;
+    clear: both;
+
+}
+h1{
+    font-family: Calibri; 
+    font-size: 25pt;         
+    font-style: normal; 
+    font-weight: bold; 
+    color:red;
+    text-align: center; 
+    text-decoration: underline
+  }
+
+.tablecolor{
+    font-family: Calibri; 
+    color:white; 
+    font-size: 11pt; 
+    font-style: normal;
+    font-weight: bold;
+    
+    background-color: SlateBlue; 
+    border-collapse: separate;
+    border-spacing:  1em;
+    margin: 10px;
+    border: 2px solid navy
+  } 
+  div {
+    margin: 0px;
+    padding: 0px;
+}
+.selected{
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
+  .button {
+  
+  border: none;
+  color:white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#name{
+    width: 200px;
+    height: 30px;
+    ;
+    background-color: darkorange;
+}
+#name1{
+    width: 200px;
+    height: 30px;
+    background-color: green;
+    border-radius: 10px;
+    
+}
+
+h2{
+    color:red;
+}
